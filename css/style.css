@@ -57,3 +57,128 @@ main h1{
     letter-spacing: 0.3em;
     margin-top: 80px;
 }
+
+#news{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.news_list ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.news_list ul li{
+    margin: 40px 50px 40px 0;
+    padding: 10px;
+}
+
+.news_list ul li:nth-child(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px 25px;
+}
+
+.day{
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.day span{
+    color: white;
+    background-color: black;
+    padding: 0 5px;
+}
+
+.text{
+    font-size: 15px;
+}
+
+
+
+.about_visual{
+    width: 55%;
+    height: 400px;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bussiness_title{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.business_container{
+    display: flex;
+    justify-content: center;
+}
+
+.business_container ul {
+    list-style: none;
+}
+
+.img_title{
+    margin: 50px 0 20px 0;
+    font-weight:bold
+}
+
+.business_item1{
+    margin: 125px 30px 150px 0;
+}
+
+.business_img img{
+    width: 350px;
+}
+
+#company{
+    background-color: white;
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.company_title{
+    margin:50px 45px;
+}
+
+.company_item1 ul li{
+    display: flex;
+    font-size: 15px;
+}
+
+.company_item1 .info{
+    width: 10%;
+    height: 30px;
+}
+
+.company_img{
+    position:relative;
+    bottom:400px;
+    left: 450px;
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/company.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.copyright{
+    font-size: 10px;
+}
