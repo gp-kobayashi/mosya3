@@ -58,6 +58,11 @@ main h1{
     margin-top: 80px;
 }
 
+hr{
+    width: 50px;
+    margin:25px 0 25px 0;
+}
+
 #news{
     max-width: 1000px;
     margin: 0 auto;
@@ -97,14 +102,23 @@ main h1{
     font-size: 15px;
 }
 
+.about_container {
+    display: flex;
+}
 
-
-.about_visual{
+.about_img {
     width: 55%;
+}
+
+.about_img img{
+    width: 95%;
     height: 400px;
-    background-image: url(../img/about.jpg);
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
+}
+
+.about_title{
+    max-width: 40%;
+    margin-top: 100px;
 }
 
 .bussiness_title{
@@ -123,7 +137,8 @@ main h1{
 
 .img_title{
     margin: 50px 0 20px 0;
-    font-weight:bold
+    font-weight:bold;
+    list-style: '-';
 }
 
 .business_item1{
@@ -135,14 +150,22 @@ main h1{
 }
 
 #company{
-    background-color: white;
-    padding-top: 20px;
+    position: relative;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.company_title{
-    margin:50px 45px;
+.company_item1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    padding: 20px 50px 100px 50px;
+    background-color: white;
+}
+
+.company_item1 ul{
+    padding: 0;
 }
 
 .company_item1 ul li{
@@ -151,24 +174,26 @@ main h1{
 }
 
 .company_item1 .info{
-    width: 10%;
+    width: 20%;
     height: 30px;
 }
 
-.company_img{
-    position:relative;
-    bottom:400px;
-    left: 450px;
+.company_item2 img{
+    position: absolute;
+    top: 125px;
+    right: 10px;
+    max-width: 550px;
     width: 50%;
     height: 400px;
-    background-image: url(../img/company.jpg);
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
+
 }
+
+
 
 footer{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 700px auto 100px auto;
     background-color: white;
 }
 
