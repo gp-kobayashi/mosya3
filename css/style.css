@@ -3,13 +3,15 @@ body{
 }
 
 header{
-    max-width: 1200px;
+    position: relative;
     margin: 0 auto;
 }
 
 .header_comtainer{
     display: flex;
     justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .header_item{
@@ -19,6 +21,7 @@ header{
 .header_list ul{
     display: flex;
     List-style: none
+
 }
 
 .header_list ul li{
@@ -121,6 +124,10 @@ hr{
     margin-top: 100px;
 }
 
+.about_txet p{
+    line-height:5;
+}
+
 .bussiness_title{
     max-width: 1000px;
     margin: 0 auto;
@@ -156,9 +163,6 @@ hr{
 }
 
 .company_item1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
     width: 500px;
     padding: 20px 50px 100px 50px;
     background-color: white;
@@ -180,21 +184,18 @@ hr{
 
 .company_item2 img{
     position: absolute;
-    top: 125px;
-    right: 10px;
-    max-width: 550px;
-    width: 50%;
+    bottom: 50px;
+    left: 500px;
+    width: 55%;
     height: 400px;
     object-fit: cover;
-
 }
 
 
 
 footer{
-    max-width: 1000px;
-    margin: 700px auto 100px auto;
     background-color: white;
+    margin-top: 150px;
 }
 
 .footer_container{
@@ -206,4 +207,6 @@ footer{
 
 .copyright{
     font-size: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
