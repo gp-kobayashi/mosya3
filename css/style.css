@@ -2,10 +2,13 @@ body{
     background-color: whitesmoke;
 }
 
-.header_container{
-    display: flex;
+.wrapper {
     max-width: 1000px;
     margin: 0 auto;
+    }
+
+.header_container{
+    display: flex;
 }
 
 .header_item{
@@ -41,20 +44,12 @@ body{
 }
 
 .header_container p:hover{
-    position: absolute;
-    top:0;
-    right: 0;
-    font-size: 12px;
-    color: white;
-    text-align: center;
     background-color: gray;
-    margin: 0;
-    padding: 33px 50px;
 }
 
 @media(max-width:850px){
     .header_item{
-        display: inline;
+        display: initial;
         margin-left: 15px;
     }
     .header_item h1{    
@@ -94,8 +89,6 @@ hr{
 }
 
 #news{
-    max-width: 1000px;
-    margin: 0 auto;
     padding-left: 15px;
 }
 
@@ -106,14 +99,13 @@ hr{
 }
 
 .news_list ul li{
-    margin: 40px 50px 40px 0;
+    width: 33%;
     padding: 10px;
+    border-right: 1px solid black;
 }
 
-.news_list ul li:nth-child(2) {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding: 10px 25px;
+.news_list ul li:last-child { 
+    border: none;
 }
 
 .day{
@@ -136,9 +128,9 @@ hr{
         display: inline;
     }
     .news_list ul li{
-        margin:20px 0;
+        width: 100%;
     }
-    .news_list ul li:nth-child(2){
+    .news_list ul li{
         border: none;
         padding: 10px;
     }
@@ -187,8 +179,6 @@ hr{
 }
 
 .bussiness_title{
-    max-width: 1000px;
-    margin: 0 auto;
     padding-left: 15px;
 }
 
@@ -230,8 +220,6 @@ hr{
 
 #company{
     position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .company_item1 {
@@ -294,8 +282,6 @@ footer{
 .footer_container{
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 @media(max-width:850px){
@@ -313,6 +299,4 @@ footer{
 
 .copyright{
     font-size: 10px;
-    max-width: 1000px;
-    margin: 0 auto;
 }
