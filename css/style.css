@@ -138,6 +138,7 @@ hr{
 
 .about_container {
     display: flex;
+    margin-top: 100px;
 }
 
 .about_img {
